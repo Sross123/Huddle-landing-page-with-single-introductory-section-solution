@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Huddle landing page with single introductory section solution</title>
+</head>
+<style>
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header{
+    /* border: 2px solid white; */
+    width: 90%;
+  }
+  header img{
+    width: 17%; 
+    margin: 25px 0 0 40px;
+  }
+  section{
+    margin-top: 30px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .main-img{
+    width: 650px;
+    height: 400px;
+  }
+  .content{
+    margin-top: 10px;
+    padding-left: 20px;
+    /* height: 80%; */
+
+  }
+  h1{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    text-transform: capitalize;
+
+  }
+  p{
+    padding-top: 20px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+  .btn{
+    transition: 0.5s;
+    color: gray;
+    margin-top: 25px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(87, 3, 121, 0.726);
+    cursor: pointer;
+  }
+  .btn:hover{
+    color: black;
+    transition: 0.5S;
+    margin-top: 25px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(87, 3, 121, 0.726);
+    cursor: pointer;
+  }
+</style>
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="error loading...">
+  </header>
+  <section>
+    <main>
+      <div class="img">
+        <img class="main-img" src="./images/illustration-mockups.svg" alt="error loading...">
+      </div>
+      <div class="content">
+        <h1 class="title">Build the community your fans will love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="btn">Register</button>
+      </div>
+    </main>
+  </section>
+</body>
+</html>
